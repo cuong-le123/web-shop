@@ -15,6 +15,7 @@
 
 .header__navbar-item{
     display: inline-block;
+    margin: 0 8px;
 }
 
 .header__navbar-item-link,
