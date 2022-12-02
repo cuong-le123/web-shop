@@ -123,6 +123,7 @@
     border: 1px solid #d3d3d3;
     background-color: var(--white-color);
     right: 0;
+    cursor: default ;
 }
 
 .header__notify-header {
@@ -190,11 +191,14 @@
 }
 
 .header__notify-footer{
-    text-align: center;
+    display: flex;
 }
 
 .header__notify-footer-btn{
     text-decoration: none;
     color: var(--text-color);
-    padding: 16px 16px;
+    margin: auto;
+    padding: 8px 48px;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
