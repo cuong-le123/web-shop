@@ -53,7 +53,7 @@
     height: 12px;
     right: -9px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
 }
 
 .header__navbar-icon-link{
@@ -116,3 +116,43 @@
     margin-left: 5px;
 }
 
+.header__notify{
+    position: absolute;
+    top: 118%;
+    width: 404px;
+    background-color: var(--white-color);
+    right:0;
+
+}
+
+.header__notify-header{
+
+}
+
+.header__notify-list{
+
+}
+
+.header__notify-item{
+
+}
+
+.header__notify-link{
+
+}
+
+.header__notify-img{
+
+}
+
+.header__notify-info{
+
+}
+
+.header__notify-name{
+
+}
+
+.header__notify-descriotion{
+
+}
