@@ -28,6 +28,13 @@
     font-weight: 300;
 }
 
+.header__navbar-item-link:hover,
+.header__navbar-item:hover {
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.5)
+}
+
+
 .header__navbar-item--bold{
     font-weight: 400;
 }
@@ -43,3 +50,7 @@
     transform: translateY(-50%);
 }
 
+.header__navbar-icon-link{
+    color: var(--white-color);
+    text-decoration: none;
+}
