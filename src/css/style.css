@@ -16,6 +16,7 @@
 .header__navbar-item{
     display: inline-block;
     margin: 0 8px;
+    position: relative;
 }
 
 .header__navbar-item-link,
@@ -29,5 +30,16 @@
 
 .header__navbar-item--bold{
     font-weight: 400;
+}
+
+.header__navbar-item--sepatate::after{
+    content:"";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #fb9086;
+    height: 12px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
