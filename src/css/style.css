@@ -289,6 +289,7 @@
 .header__search-selects{
     border-left: 1px solid #ccc;
     padding-left: 16px;
+    position: relative;
 }
 
 .header__search-select-label{
@@ -321,4 +322,34 @@
 .header__search-btn-icon{
     font-size: 1.6rem;
     color: var(--white-color);
+}
+
+.header_search-option{
+    position: absolute;
+    right:0;
+    top: 100%;
+    width: 120px;
+    list-style: none;
+    box-shadow: 0 0 3px red; 
+    padding-left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header__search-option-item{
+    background-color: var(--white-color);
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-align: right;
+}
+
+.header__search-option-item span{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.header__search-option-item i{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin: 0 4px 0 12px;
 }
