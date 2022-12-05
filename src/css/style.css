@@ -1,16 +1,22 @@
 .header {
-    height: 120px;
+    height: var(--header-height);
     background-image: linear-gradient(0, #fe6433, #f53e2d);
 }
 
 .header__navbar {
     display: flex;
     justify-content: space-between;
+    margin: 0 226px ;
 }
 
 .header__navbar-list {
     list-style: none;
     padding-left: 0;
+    margin: 4px 0 0 0;
+}
+
+.header__qr, .header__qr-link{
+    cursor: default;
 }
 
 .header__navbar-item {
@@ -230,4 +236,39 @@
     padding: 8px 0;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+.header-with-search{
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    margin: 0 226px;
+}
+
+.header__logo{
+    width: 200px;
+}
+
+.header__logo-img{
+    width: 150px;
+    fill: #fff;
+}
+
+.header__search{
+    flex: 1;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.header__cart{
+    width: 150px;
+    text-align: center;
+}
+
+.header__cart-icon{
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-top: 6px;
 }
