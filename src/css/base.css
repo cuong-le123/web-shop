@@ -34,6 +34,9 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
+.grid__row{
+    
+}
 
 @keyframes fadeIn{
     from {
