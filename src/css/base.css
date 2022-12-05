@@ -21,17 +21,14 @@ html{
 }
 
 .grid{
-    width: 1900px;
+    width: 1500px;
     max-width: 100%;
     margin: 0 auto;
 }
 
 .grid__full-width{
     width: 100%;
-}
-
-
-
+} 
 
 .grid__row{
     display: flex;
