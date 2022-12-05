@@ -25,6 +25,10 @@
     margin-top: 4px;
 }
 
+.header__navbar-item--has-notify:hover .header__notify{
+    display: block;
+}
+
 .header__navbar-item,
 .header__navbar-item-link {
     display: inline-block;
@@ -124,6 +128,9 @@
     background-color: var(--white-color);
     right: 0;
     cursor: default ;
+    transform-origin: calc(100% - 20px) top ;/* dung de dieu chinh tam animation*/
+    animation: headerNotifyGrowth ease-in 0.3s;
+    display: none;
 }
 
 .header__notify-header {
@@ -138,6 +145,7 @@
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 40px;
+    user-select: none;
 }
 
 .header__notify-list {
@@ -198,7 +206,7 @@
     text-decoration: none;
     color: var(--text-color);
     margin: auto;
-    padding: 8px 48px;
+    padding: 8px 0;
     font-size: 1.4rem;
     font-weight: 400;
 }
