@@ -549,9 +549,46 @@
     text-decoration: none;
 }
 
-.home-prduct-item-click:hover{
-    border-color: var(--primary-color);
+.footer{
+  border-top: 4px solid var(--primary-color);
+  padding-top: 16px;
 }
+
+.footer__heading{
+  font-size: 1.4rem;
+  text-transform: uppercase ;
+  color: var(--text-color);
+}
+
+.footer__list{
+  padding-left: 0;
+  list-style: none;
+  padding:2px 0 ;
+  display: block;
+}
+
+
+.footer__item-link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.footer__item-link:hover{
+  color: var(--primary-color);
+}
+
+.footer__download{
+  display: flex;
+}
+
+.footer__download-qr{
+  width: 80px;
+  object-fit: contain;
+  border: 1px solid var(--border-color);
+}
+
+.footer__download-app
 
 .detail-product-item__img{
     width: 360px;
@@ -593,3 +630,4 @@
 .detail__info-introduce{
     font-size: 14px;
 }
+
