@@ -50,14 +50,14 @@ html{
 
 }
 .grid__column-4{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 33.3334%;
 }
 
 .grid__column-8{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 66.6667%;
 }
 
