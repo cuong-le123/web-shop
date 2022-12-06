@@ -21,7 +21,11 @@ html{
 }
 
 .grid{
+<<<<<<< HEAD
     width: 1500px;
+=======
+    width: 1200px;
+>>>>>>> 5a4b60924ea526e125acb709f61d4bd5744d748d
     max-width: 100%;
     margin: 0 auto;
 }
@@ -47,6 +51,21 @@ html{
     padding-left: 12px;
     padding-right: 12px;
     width: 20% ;
+<<<<<<< HEAD
+=======
+
+}
+.grid__column-4{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 33.3334%;
+}
+
+.grid__column-8{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 66.6667%;
+>>>>>>> 5a4b60924ea526e125acb709f61d4bd5744d748d
 }
 
 .grid__column-10{
