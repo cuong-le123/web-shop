@@ -21,7 +21,7 @@ html{
 }
 
 .grid{
-    width: 1900px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -47,6 +47,18 @@ html{
     padding-left: 12px;
     padding-right: 12px;
     width: 20% ;
+
+}
+.grid__column-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33.3334%;
+}
+
+.grid__column-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 66.6667%;
 }
 
 .grid__column-10{
