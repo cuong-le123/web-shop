@@ -86,3 +86,25 @@ html{
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    .header__logo-img{
+        display:none;
+    }
+
+    .header__search{
+        width: 100%;
+    }
+    
+    .grid__column-2{
+        display: none;
+    }
+
+    .gird__column-2-4{
+        width: 33.3334%;
+    }
+}
+
+@media only screen and (max-width: 740px) and (min-width: 1023px) {
+   
+}

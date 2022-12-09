@@ -588,7 +588,14 @@
   border: 1px solid var(--border-color);
 }
 
-.footer__download-app
+.footer__download-app{
+  display:inline;
+}
+
+.footer__download-app-img{
+  width: 80px;
+  align-items: center;
+}
 
 .detail-product-item__img{
     width: 360px;
