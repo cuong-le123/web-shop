@@ -648,40 +648,31 @@
     font-size: 14px;
 }
 
+.detail__amount{
+    padding: 0 15px 5px;
+    font-size: 1.4rem;
+}
+
 .detail__number{
     border: 1px solid #999; 
-    width: 124px;
+    width: 168px;
     height: 38px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-}
-
-.detail__numbers{
-    border:none;
-    width: 50px;
-    height: 36px;
-    align-self: center;
-}
-
-.detail__minus-btn{
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-    border: none;
-}
-
-.detail__plus-btn{
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    padding: 10px 18px;
+    
 }
 
 .detail__ml{
     border: 1px solid #999; 
-    width: 124px;
+    width: 168px;
     height: 38px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.detail__numbers{
+    font-size: 1.4rem;
 }

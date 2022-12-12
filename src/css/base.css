@@ -91,3 +91,15 @@ html{
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    .gird__column-2-4{
+        width: 33.3334%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .gird__column-2-4{
+        width: 25%;
+    }
+}
